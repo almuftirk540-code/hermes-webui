@@ -1628,8 +1628,8 @@ const LOCALES = {
   },
 };
 
-// Active locale — defaults to English; overridden by loadLocale() at boot.
-let _locale = LOCALES.en;
+// Active locale — defaults to Chinese (zh); overridden by loadLocale() at boot.
+let _locale = LOCALES.zh;
 
 /**
  * Resolve an incoming locale tag to a known LOCALES key.
